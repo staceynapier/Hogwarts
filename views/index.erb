@@ -1,0 +1,9 @@
+<h1>Student Enrollment - Hogwarts</h1>
+
+<% @students.each do |student| %>
+  <p>First Name: <%= student.first_name %></p>
+  <p>Surname:  <%= student.second_name %></p>
+  <p>House: <%= student.house_id %></p>
+  <p>Age: <%= student.age %></p>
+    <hr />
+    <% end %>
